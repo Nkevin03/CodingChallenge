@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    position: relative;
+    background-image: url(../boolean/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Form*/
+
+.background-form{
+    background: #00000094;
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.logo img{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    width: 315px;
+    margin-top: 8%;
+}
+
+.taking h1{
+    color: #00DD00;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    background: #00DD00;
+    width: 80%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+button{
+    margin: 3px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.info{
+    margin: 0px auto;
+    width: 80%;
+    color: #ffffff;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.title h3{
+    margin: 15px;
+}
+
+.icon{
+    display: flex;
+}
+
+.icon p{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.carica{
+    height: 30px;
+    width: 35%;
+    background-color: #F5B453;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.carica2{
+    height: 30px;
+    width: 60%;
+    background-color: #1EC31E;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.carica3{
+    height: 30px;
+    width: 18%;
+    background-color: #BE4141;
+    border-radius: 5px;
+    margin-top: 2px;
+}
